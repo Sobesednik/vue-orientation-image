@@ -1,0 +1,45 @@
+{
+  "name": "vue-orientation-image",
+  "version": "1.0.0",
+  "description": "A vue component to display images with exif orientation correctly",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "karma start --single-run=true",
+    "test-watch": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sobesednik/vue-orientation-image.git"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "exif",
+    "image",
+    "orientation"
+  ],
+  "author": "Anton <anton@sobesednik.media>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sobesednik/vue-orientation-image/issues"
+  },
+  "homepage": "https://github.com/Sobesednik/vue-orientation-image#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "jasmine-core": "^2.5.2",
+    "jasmine-jquery": "^2.1.1",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "phantomjs": "^2.1.7",
+    "vue": "^2.1.8",
+    "vueify": "^9.4.0",
+    "watchify": "^3.8.0"
+  },
+  "dependencies": {
+    "exif2css": "^1.2.0",
+    "karma-jasmine-jquery": "^0.1.1"
+  }
+}
